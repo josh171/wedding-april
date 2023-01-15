@@ -12,10 +12,10 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        {/* <Route exact path="/destination" element={<Destination />} /> */}
-        {/* <Route exact path="/rsvp" element={<Rsvp />} /> */}
-        {/* <Route exact path="/menu" element={<Menu />} /> */}
-        {/* <Route exact path="/gallery" element={<Gallery />} /> */}
+        <Route exact path="/destination" element={<Destination />} />
+        <Route exact path="/rsvp" element={<Rsvp />} />
+        <Route exact path="/menu" element={<Menu />} />
+        <Route exact path="/gallery" element={<Gallery />} />
       </Routes>
     </BrowserRouter>
   );
